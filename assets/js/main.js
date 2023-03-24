@@ -5,6 +5,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+//https://stackoverflow.com/questions/63875905/how-to-add-localstorage-to-my-multilanguage-website
 (function() {
   "use strict";
 
@@ -12,13 +13,67 @@
   const languageButtonRO = document.getElementById('language-button-ro');
 
   const serviciiTitle = document.getElementById('titleServicii');
+  const paragraphContact = document.getElementById('contact-p');
+
+  
+  const EL_lanSelect = document.querySelector("#lan")
+  let lan = localStorage.language || "ro"; // or fallback to a default ("ar")
+
+  EL_lanSelect.value = lan;
+  EL_lanSelect.addEventListener("change", changeLan);
+
+  const dict = {
+    buttonHome: {ro: "Acasa", en: "Home"},
+    buttonAbout: {ro: "Despre Noi", en: "About"},
+    titlePortofolio: {ro: "Portofolio", en: "Portofolio English"},
+  };
+
+  function changeLan() {
+    lan = EL_lanSelect.value;
+    localStorage.language = lan;
+    applyLan();
+  }
+
+  function applyLan() {
+    Object.keys(dict).forEach( k => {
+      document.getElementById(k).innerHTML = dict[k][lan];
+    });
+  }
+
+  //applyLan();
+
+  // HEADER TRADUCTION
+  const buttonHome = document.getElementById('buttonHome');
+  const buttonAbout = document.getElementById('buttonAbout');
+  const buttonServices = document.getElementById('buttonServices');
+  const buttonOfferts = document.getElementById('buttonOfferts');
+  const buttonPack1 = document.getElementById('buttonPack1');
+  const buttonPack2 = document.getElementById('buttonPack2');
+  const buttonPack3 = document.getElementById('buttonPack3');
+  const buttonTeam = document.getElementById('buttonTeam');
+  const buttonStart = document.getElementById('buttonStart');
+  // FIN HEADER TRADUCTION
 
   languageButtonEN.addEventListener('click', () => {
       languageButtonEN.classList.remove('btn-light')
       languageButtonEN.classList.add('btn-dark')
       languageButtonRO.classList.remove('btn-dark')
       languageButtonRO.classList.add('btn-light')
+
+      buttonHome.textContent = 'Home';
+      buttonAbout.textContent = 'About Us';
+      buttonServices.textContent = 'Services';
+      buttonOfferts.textContent = 'Offerts';
+      buttonPack1.textContent = 'Offert 1';
+      buttonPack2.textContent = 'Offert 2';
+      buttonPack3.textContent = 'Offert 3';
+      buttonTeam.textContent = 'Team';
+      buttonStart.textContent = 'Get Started'
+
+
+
       serviciiTitle.textContent = 'SERVICES';
+      paragraphContact.textContent = 'English';
   })
 
   languageButtonRO.addEventListener('click', () => {
@@ -26,7 +81,20 @@
     languageButtonRO.classList.add('btn-dark')
     languageButtonEN.classList.remove('btn-dark')
     languageButtonEN.classList.add('btn-light')
+    
+    buttonHome.textContent = 'Acasa';
+    buttonAbout.textContent = 'Despre Noi';
+    buttonServices.textContent = 'Servicii';
+    buttonOfferts.textContent = 'Oferte';
+    buttonPack1.textContent = 'Oferta 1';
+    buttonPack2.textContent = 'Oferta 2';
+    buttonPack3.textContent = 'Oferta 3';
+    buttonTeam.textContent = 'Echipa';
+    buttonStart.textContent = 'Sa incepem'
+
+
     serviciiTitle.textContent = 'SERVICII';
+    paragraphContact.textContent = 'Test';
 })
 
   /**
