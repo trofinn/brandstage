@@ -45,21 +45,36 @@
       <a href="index.html" class="logo me-auto"><img src="assets/img/brandstage-logo.png" alt="" ></a>
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Acasa</a></li>
-          <li><a class="nav-link scrollto" href="#about">Despre noi</a></li>
-          <li><a class="nav-link scrollto" href="#services">Servicii</a></li>
+          <li><a class="nav-link scrollto active" href="#hero" id="buttonHome">Acasa</a></li>
+          <li><a class="nav-link scrollto" href="#about" id="buttonAbout">Despre Noi</a></li>
+          <li><a class="nav-link scrollto" href="#services" id="buttonServices">Servicii</a></li>
+          <li class="dropdown"><a href="#pricing" id="buttonOfferts"><span>Oferte</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="pachet-1.html" id="buttonPack1">Oferta 1</a></li>
+              <li><a href="pachet-2.html" id="buttonPack2">Oferta 2</a></li>
+              <li><a href="pachet-3.html" id="buttonPack3">Oferta 3</a></li>
+            </ul>
+          </li>
           <li><a href="inner-page.html">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Echipa</a></li>
+          <li><a class="nav-link scrollto" href="#team" id="buttonTeam">Echipa</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#about" class="get-started-btn scrollto">Sa incepem</a>
+      <a href="#about" class="get-started-btn scrollto" id="buttonStart">Sa incepem</a>
       <div class="mx-5">
         <button type="button" class="btn btn-dark" id="language-button-ro">RO</button>
         <button type="button" class="btn btn-light" id="language-button-en">EN</button>
       </div>
+      
+      <div class="mx-5">
+        <select form="langform" id="lan">
+          <option value="ro" selected>RO</option>
+          <option value="en">EN</option>
+        </select>
+      </div>
+      
     </div>
   </header><!-- End Header -->
 
@@ -384,7 +399,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Pricing</h2>
+          <h2>Ofertele noastre</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
         </div>
 
@@ -402,7 +417,7 @@
                 <li class="na">Massa ultricies mi</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="pachet-1.html" class="btn-buy">Vezi detalii</a>
               </div>
             </div>
           </div>
@@ -419,7 +434,7 @@
                 <li class="na">Massa ultricies mi</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="pachet-2.html" class="btn-buy">Vezi detalii</a>
               </div>
             </div>
           </div>
@@ -436,7 +451,7 @@
                 <li>Massa ultricies mi</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="pachet-3.html" class="btn-buy">Vezi detalii</a>
               </div>
             </div>
           </div>
@@ -541,7 +556,7 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+          <p id="contact-p">Test commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -612,7 +627,7 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-6 footer-contact">
+          <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Brand<span>Stage</span></h3>
             <p>
               A108 Adam Street <br>
@@ -623,7 +638,7 @@
             </p>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
@@ -634,7 +649,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -644,8 +659,16 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
           </div>
-
-
+          
+          <div class="col-lg-1 col-md-6 footer-links">
+            <h4>Socials</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="www.instagram.com">instagram.com/branstage.ro&nbsp;&nbsp;</a><i class="bi bi-instagram"></i></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="www.youtube.com">youtube.com/brandstage&nbsp;&nbsp;</a><i class="bi bi-youtube"></i></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="www.facebook.com">facebook.com/brandstage&nbsp;&nbsp;</a><i class="bi bi-facebook"></i></li>
+              <li><i class="bx bx-chevron-right"></i> </i><a href="www.tiktok.com">tiktok.com/brandstage&nbsp;&nbsp;</a><i class="bi bi-tiktok"></i></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
