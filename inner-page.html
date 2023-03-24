@@ -45,21 +45,34 @@
       <a href="index.html" class="logo me-auto"><img src="assets/img/brandstage-logo.png" alt="" ></a>
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a href="index.html">Acasa</a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">Despre noi</a></li>
-          <li><a class="nav-link scrollto" href="index.html#services">Servicii</a></li>
+          <li><a class="nav-link scrollto" href="index.html#hero" id="buttonHome">Acasa</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about" id="buttonAbout">Despre Noi</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services" id="buttonServices">Servicii</a></li>
+          <li class="dropdown"><a href="index.html#pricing" id="buttonOfferts"><span>Oferte</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="pachet-1.html" id="buttonPack1">Oferta 1</a></li>
+              <li><a href="pachet-2.html" id="buttonPack2">Oferta 2</a></li>
+              <li><a href="pachet-3.html" id="buttonPack3">Oferta 3</a></li>
+            </ul>
+          </li>
           <li><a href="inner-page.html" class="active">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="index.html#team">Echipa</a></li>
+          <li><a class="nav-link scrollto" href="index.html#team" id="buttonTeam">Echipa</a></li>
           <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#about" class="get-started-btn scrollto">Sa incepem</a>
       <div class="mx-5">
         <button type="button" class="btn btn-dark" id="language-button-ro">RO</button>
         <button type="button" class="btn btn-light" id="language-button-en">EN</button>
       </div>
+      <div class="mx-5">
+        <select form="langform" id="lan">
+          <option value="ro" selected>RO</option>
+          <option value="en">EN</option>
+        </select>
+      </div>
+      
     </div>
   </header><!-- End Header -->
   <main id="main">
