@@ -9,13 +9,10 @@
 (function() {
   "use strict";
 
-  const languageButtonEN = document.getElementById('language-button-en');
-  const languageButtonRO = document.getElementById('language-button-ro');
-
   const serviciiTitle = document.getElementById('titleServicii');
   const paragraphContact = document.getElementById('contact-p');
 
-  
+  /*
   const EL_lanSelect = document.querySelector("#lan")
   let lan = localStorage.language || "ro"; // or fallback to a default ("ar")
 
@@ -40,7 +37,8 @@
     });
   }
 
-  //applyLan();
+
+  applyLan(); */
 
   // HEADER TRADUCTION
   const buttonHome = document.getElementById('buttonHome');
@@ -53,49 +51,6 @@
   const buttonTeam = document.getElementById('buttonTeam');
   const buttonStart = document.getElementById('buttonStart');
   // FIN HEADER TRADUCTION
-
-  languageButtonEN.addEventListener('click', () => {
-      languageButtonEN.classList.remove('btn-light')
-      languageButtonEN.classList.add('btn-dark')
-      languageButtonRO.classList.remove('btn-dark')
-      languageButtonRO.classList.add('btn-light')
-
-      buttonHome.textContent = 'Home';
-      buttonAbout.textContent = 'About Us';
-      buttonServices.textContent = 'Services';
-      buttonOfferts.textContent = 'Offerts';
-      buttonPack1.textContent = 'Offert 1';
-      buttonPack2.textContent = 'Offert 2';
-      buttonPack3.textContent = 'Offert 3';
-      buttonTeam.textContent = 'Team';
-      buttonStart.textContent = 'Get Started'
-
-
-
-      serviciiTitle.textContent = 'SERVICES';
-      paragraphContact.textContent = 'English';
-  })
-
-  languageButtonRO.addEventListener('click', () => {
-    languageButtonRO.classList.remove('btn-light')
-    languageButtonRO.classList.add('btn-dark')
-    languageButtonEN.classList.remove('btn-dark')
-    languageButtonEN.classList.add('btn-light')
-    
-    buttonHome.textContent = 'Acasa';
-    buttonAbout.textContent = 'Despre Noi';
-    buttonServices.textContent = 'Servicii';
-    buttonOfferts.textContent = 'Oferte';
-    buttonPack1.textContent = 'Oferta 1';
-    buttonPack2.textContent = 'Oferta 2';
-    buttonPack3.textContent = 'Oferta 3';
-    buttonTeam.textContent = 'Echipa';
-    buttonStart.textContent = 'Sa incepem'
-
-
-    serviciiTitle.textContent = 'SERVICII';
-    paragraphContact.textContent = 'Test';
-})
 
   /**
    * Easy selector helper function
