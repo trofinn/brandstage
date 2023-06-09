@@ -11,6 +11,11 @@
 
   const serviciiTitle = document.getElementById('titleServicii');
   const paragraphContact = document.getElementById('contact-p');
+  const buttonHashTag = document.getElementById('buttonHashTag');
+
+  buttonHashTag.addEventListener('click', function openGoogleByMethod(){
+    window.open("https://www.tiktok.com/tag/brandstage?lang=ro-RO")
+  });
 
   /*
   const EL_lanSelect = document.querySelector("#lan")

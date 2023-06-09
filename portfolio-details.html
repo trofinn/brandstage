@@ -39,44 +39,37 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
+   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
-      <h1 class="logo me-auto"><a href="index.html">Presento<span>.</span></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
-
+      <a href="index.html" class="logo me-auto"><img src="assets/img/brandstage-logo.png" alt="" ></a>
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto active" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href="index.html#hero" id="buttonHome">Acasa</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about" id="buttonAbout">Despre Noi</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services" id="buttonServices">Servicii</a></li>
+          <li class="dropdown"><a href="index.html#pricing" id="buttonOfferts"><span>Oferte</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="pachet-1.html" id="buttonPack1">Consultanță Online</a></li>
+              <li><a href="pachet-2.html" id="buttonPack2">TikTok Starter</a></li>
+              <li><a href="pachet-3.html" id="buttonPack3">TikTok Pro</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a href="inner-page.html" class="active">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="index.html#team" id="buttonTeam">Echipa</a></li>
+          <li><a class="nav-link scrollto" href="inner-page.html#contact">Contact</a></li>
+          <li>
+            <div class="mx-5">
+              <select form="langform" id="lan">
+                <option value="ro" selected>RO</option>
+                <option value="en">EN</option>
+              </select>
+            </div>
+          </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-
-      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+      
     </div>
   </header><!-- End Header -->
 
@@ -88,6 +81,7 @@
 
         <ol>
           <li><a href="index.html">Home</a></li>
+          <li><a href="inner-page.html">Portofolio</a></li>
           <li>Portfolio Details</li>
         </ol>
         <h2>Portfolio Details</h2>
@@ -153,74 +147,49 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Presento<span>.</span></h3>
+            <h3>Brand<span>Stage</span></h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Bulevardul Pipera 188 <br>
+              Voluntari 077190<br>
+              România<br><br>
+              <strong>Telefon:</strong><a href="tel:0764838220"> 0764 838 220</a><br>
+              <strong>Email:</strong><a href = "mailto: contact@brandstage.ro"> contact@brandstage.ro</a><br>
+              <!-- https://mail.google.com/mail/?view=cm&fs=1&to=email@domain.example -->
             </p>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Link-uri utile</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#">Acasă</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">Despre Noi</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Servicii</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="inner-page.html">Portofolio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="inner-page.html#contact">Contact</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Pachetele noastre</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="pachet-1.html">Consultanță Online</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="pachet-2.html">TikTok Starter</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="pachet-3.html">TikTok Pro</a></li>
             </ul>
           </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
+          
+          <div class="col-lg-1 col-md-6 footer-links">
+            <h4>Socials</h4>
+            <ul>
+              <li><a href="https://www.tiktok.com/discover/brandstage"><i class="bi bi-tiktok"></i></a></li>
+              <li><a href="https://instagram.com/brandstage.ro"><i class="bi bi-instagram"></i></a></li>
+            </ul>
           </div>
-
         </div>
       </div>
     </div>
 
-    <div class="container d-md-flex py-4">
-
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Presento</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/presento-bootstrap-corporate-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-      </div>
-      <div class="social-links text-center text-md-end pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -235,7 +204,7 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/portofolio.js"></script>
 
 </body>
 
