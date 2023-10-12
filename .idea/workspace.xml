@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f6c1757-f004-4b2f-a576-9cdeea8fa99c" name="Changes" comment="english translation for prices">
+      <change afterPath="$PROJECT_DIR$/cookies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tc.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2T40PVE3vDJQQW7xa44fux7jwLd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/33634/Desktop/brandstage/brandstage/brandstage",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\33634\Desktop\brandstage\brandstage\brandstage" />
+      <recent name="C:\Users\33634\Desktop\brandstage\brandstage\brandstage\web\assets\js" />
+      <recent name="C:\Users\33634\Desktop\brandstage\brandstage\brandstage\assets\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f6c1757-f004-4b2f-a576-9cdeea8fa99c" name="Changes" comment="" />
+      <created>1690287021751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690287021751</updated>
+      <workItem from="1690287060570" duration="17000" />
+      <workItem from="1690298675559" duration="5000" />
+      <workItem from="1690562686007" duration="7846000" />
+      <workItem from="1690630171665" duration="2750000" />
+      <workItem from="1690633858964" duration="1015000" />
+      <workItem from="1690802465525" duration="9000" />
+      <workItem from="1692112547840" duration="64000" />
+      <workItem from="1692178379180" duration="432000" />
+      <workItem from="1692178896024" duration="28000" />
+      <workItem from="1692625083017" duration="60000" />
+      <workItem from="1695297597454" duration="11133000" />
+      <workItem from="1695839976308" duration="99000" />
+      <workItem from="1695840241780" duration="22000" />
+      <workItem from="1695925918010" duration="7423000" />
+      <workItem from="1695934175490" duration="726000" />
+      <workItem from="1695996321195" duration="5000" />
+      <workItem from="1697135125322" duration="6803000" />
+    </task>
+    <task id="LOCAL-00001" summary="english translation">
+      <option name="closed" value="true" />
+      <created>1695933192314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695933192314</updated>
+    </task>
+    <task id="LOCAL-00002" summary="english translation for prices">
+      <option name="closed" value="true" />
+      <created>1695934808966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695934808966</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="english translation" />
+    <MESSAGE value="english translation for prices" />
+    <option name="LAST_COMMIT_MESSAGE" value="english translation for prices" />
+  </component>
+</project>
