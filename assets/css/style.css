@@ -516,7 +516,7 @@ section {
 
 .section-bg:before {
   content: "";
-  background: #111111;
+  background: #000000;
   position: absolute;
   bottom: 60px;
   top: 60px;
@@ -2224,4 +2224,38 @@ section {
   transition: 0.3s;
   font-size: 14px;
   font-weight: 600;
+}
+#academySabina {
+  display: block;
+  max-width: 40vh;
+  max-height:50vh;
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+}
+
+#brandstageAcademy {
+  display: block;
+  max-width: 40vh;
+  max-height:50vh;
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+}
+
+#influencers .row h5 ul li span {
+  color: #fdd600;
+}
+
+#academyPrice {
+  margin: auto;
+  display: block;
+  max-width: 40vh;
+  max-height:50vh;
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }

@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f6c1757-f004-4b2f-a576-9cdeea8fa99c" name="Changes" comment="english translation for prices">
-      <change afterPath="$PROJECT_DIR$/cookies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/academy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/contactAcademy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/php-email-form/php-email-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/php-email-form/php-email-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookies.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/inner-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pachet-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pachet-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pachet-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pachet-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pachet-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/pachet-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tc.html" beforeDir="false" afterPath="$PROJECT_DIR$/tc.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,23 +34,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/33634/Desktop/brandstage/brandstage/brandstage",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/33634/Desktop/brandstage/brandstage/brandstage/forms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\33634\Desktop\brandstage\brandstage\brandstage\forms" />
+      <recent name="C:\Users\33634\Desktop\brandstage\brandstage\brandstage\assets\js" />
       <recent name="C:\Users\33634\Desktop\brandstage\brandstage\brandstage" />
       <recent name="C:\Users\33634\Desktop\brandstage\brandstage\brandstage\web\assets\js" />
       <recent name="C:\Users\33634\Desktop\brandstage\brandstage\brandstage\assets\img" />
@@ -68,6 +83,17 @@
       <workItem from="1695934175490" duration="726000" />
       <workItem from="1695996321195" duration="5000" />
       <workItem from="1697135125322" duration="6803000" />
+      <workItem from="1697217422698" duration="24000" />
+      <workItem from="1698437949015" duration="10552000" />
+      <workItem from="1698448688770" duration="23000" />
+      <workItem from="1698448909609" duration="953000" />
+      <workItem from="1698489314439" duration="11000" />
+      <workItem from="1698958856307" duration="44000" />
+      <workItem from="1698959668593" duration="3434000" />
+      <workItem from="1699013065545" duration="775000" />
+      <workItem from="1701088442055" duration="51000" />
+      <workItem from="1702926983632" duration="484000" />
+      <workItem from="1702979262515" duration="1545000" />
     </task>
     <task id="LOCAL-00001" summary="english translation">
       <option name="closed" value="true" />

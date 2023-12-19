@@ -35,7 +35,8 @@
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
+  $contact->add_message( $_POST['message'], 'Message BrandStage Academy', 10);
+  $contact->add_message( $_POST['phone'], 'Phone');
 
     if($_POST['privacy'] !='accept') {
      die('Please, accept our terms of service and privacy acy policy');

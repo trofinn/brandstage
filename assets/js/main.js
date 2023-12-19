@@ -36,7 +36,7 @@
                 "Noi iți putem oferi toate soluțiile necesare pentru ca brandul tău sa devină viral",
             en: "Brandstage is a marketing agency specialized in the TikTok platform. We can provide you with all the solutions necessary for your brand to go viral."
         },
-        buttonStart: {ro: "Să începem", en: "Let's begin"},
+        buttonStart: {ro: "Contactează-ne", en: "Contact us"},
         titleTabs: {ro: "REZULTATELE NOASTRE", en: "OUR RESULTS"},
         mostViewsH4: {ro: "CEL MAI VIZUALIZAT TIKTOK", en: "THE MOST VIEWED TIKTOK"},
         rapidGrowthH4: {ro: "CREȘTERE RAPIDĂ", en: "RAPID GROWTH"},
@@ -129,7 +129,7 @@
             ro: "- Crearea contului de TikTok<br>\n" +
                 "- Postarea clipurilor pe cont în conformitate cu regulile platformei<br>\n" +
                 "- Eliminarea restricțiilor sau închiderea contului<br>\n" +
-                "- Interacțiunea cu publicul și răspunsuri la comentarii<br>",
+                "- Interacțiunea cu publicul și răspunsuri la comentarii<br>" + "&nbsp",
             en: "- Creating your TikTok account.<br>" +
                 "- Posting videos on your account in accordance with platform rules.<br>" +
                 "- Resolving restrictions or account closures.<br>" +
@@ -260,10 +260,10 @@
         btnDetailsPack6: {ro: "Cere o ofertă personalizată", en: "Request a customized offer"},
         titleServicii: {ro: "SERVICII", en: "SERVICES"},
         titleFounders: {ro: "FONDATORI", en: "FOUNDERS"},
-        pack2Price: {ro: "<sup>€</sup>1700<span> / lună</span>", en: "<sup>€</sup>1700<span> / month"},
-        pack3Price: {ro: "<sup>€</sup>2300<span> / lună</span>", en: "<sup>€</sup>1700<span> / month"},
+        pack2Price: {ro: "<sup>€</sup>2000<span> / lună</span>", en: "<sup>€</sup>2000<span> / month"},
+        pack3Price: {ro: "<sup>€</sup>2500<span> / lună</span>", en: "<sup>€</sup>2500<span> / month"},
         pack3H3: {ro: "ABONAMENT LUNAR", en: "MONTHLY SUBSCRIPTION"},
-        pack4Price: {ro: "<sup>€</sup>200<span> /Lună</span>", en: "<sup>€</sup>200<span> /month</span>"}
+        pack4Price: {ro: "<sup>€</sup>350<span> /Lună</span>", en: "<sup>€</sup>350<span> /month</span>"}
     };
 
     function changeLan() {
