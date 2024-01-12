@@ -19,7 +19,6 @@ class PHP_Email_Form {
   public $mailer = false;
   public $smtp = false;
   public $message = '';
-  public $phone = false;
 
   public $content_type = 'text/html';
   public $charset = 'utf-8';
@@ -36,7 +35,6 @@ class PHP_Email_Form {
     'invalid_from_name' => 'From Name is empty!',
     'invalid_from_email' => 'Email from: is empty or invalid!',
     'invalid_subject' => 'Subject is too short or empty!',
-    'invalid_phone' => 'Phone is too short or empty!',
     'short' => 'is too short or empty!',
     'ajax_error' => 'Sorry, the request should be an Ajax POST',
     'invalid_attachment_extension' => 'File extension not allowed, please choose:',
@@ -126,7 +124,6 @@ class PHP_Email_Form {
     $from_email = filter_var( $this->from_email, FILTER_VALIDATE_EMAIL);
     $subject = filter_var( $this->subject, FILTER_SANITIZE_FULL_SPECIAL_CHARS, FILTER_FLAG_NO_ENCODE_QUOTES);
     $message = nl2br($this->message);
-    $phone =  filter_var( $this->$phone, FILTER_SANITIZE_FULL_SPECIAL_CHARS, FILTER_FLAG_NO_ENCODE_QUOTES);
     
 
     if( ! $to || md5($to) == '496c0741682ce4dc7c7f73ca4fe8dc5e') 
@@ -140,9 +137,6 @@ class PHP_Email_Form {
 
     if( ! $subject ) 
       $this->error .= $this->error_msg['invalid_subject'] . '<br>';
-
-      if( ! $phone )
-            $this->error .= $this->error_msg['invalid_phone'] . '<br>';
 
     if( is_array( $this->smtp) ) {
       if( !isset( $this->smtp['host'] ) )
@@ -362,7 +356,6 @@ class PHPMailer
      */
     public $Subject = '';
 
-    public $Phone = '';
 
     /**
      * An HTML or plain text message body.

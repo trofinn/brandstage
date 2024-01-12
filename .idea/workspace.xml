@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f6c1757-f004-4b2f-a576-9cdeea8fa99c" name="Changes" comment="english translation for prices">
-      <change afterPath="$PROJECT_DIR$/assets/js/academy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/contactAcademy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academy.html" beforeDir="false" afterPath="$PROJECT_DIR$/academy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/vendor/php-email-form/php-email-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/php-email-form/php-email-form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookies.html" beforeDir="false" afterPath="$PROJECT_DIR$/cookies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/contactAcademy.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/contactAcademy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inner-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/inner-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pachet-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pachet-1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pachet-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pachet-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pachet-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/pachet-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tc.html" beforeDir="false" afterPath="$PROJECT_DIR$/tc.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +88,11 @@
       <workItem from="1701088442055" duration="51000" />
       <workItem from="1702926983632" duration="484000" />
       <workItem from="1702979262515" duration="1545000" />
+      <workItem from="1702980899739" duration="59000" />
+      <workItem from="1702981307958" duration="102000" />
+      <workItem from="1703003366090" duration="17000" />
+      <workItem from="1703075842875" duration="949000" />
+      <workItem from="1705088003663" duration="1142000" />
     </task>
     <task id="LOCAL-00001" summary="english translation">
       <option name="closed" value="true" />
@@ -116,6 +115,34 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="english translation" />
